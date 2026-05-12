@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000814;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e3a8a;
+  border-radius: 10px;
+}
+
+.message-sent {
+  background: #2563eb;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 15px;
+  max-width: 250px;
+  word-wrap: break-word;
+}
+
+.message-received {
+  background: #1f2937;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 15px;
+  max-width: 250px;
+  word-wrap: break-word;
+}
+
+.system-message {
+  text-align: center;
+  color: #9ca3af;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.online-dot {
+  width: 10px;
+  height: 10px;
+  background: #22c55e;
+  border-radius: 50%;
+}
